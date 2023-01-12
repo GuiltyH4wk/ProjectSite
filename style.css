@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background-color: aqua;
+}
+
+.header{
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    background-color: #CED8F6;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+ul li{
+    margin-right: 20px;
+}
+
+li a{
+    text-decoration: none;
+    front-family:'Noto Serif JP', serif;
+    front-size: 1.5rem;
+    color: #848484;
+    front-weight:800;
+}
+
+.img_{
+    width:100px;
+    height: 100px;
+    margin-left: 30px;
+}
+
+.about_me{
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+}
+.main{
+    text-align: center;
+    justify-content: normal;
+    height: 75%;
+    background-color: grey;
+}
+h1{
+    padding-bottom: 5%;
+}
+.footer{
+    padding: 20px;
+    text-align: center;
+    background: cornflowerblue;
+    margin-top: 20px;
+    height: 25%;
+}
+.fullname{
+    padding-bottom: 5%;
+}
+.img_Cont{
+    align-content: start;
+    height: 75px;
+}
