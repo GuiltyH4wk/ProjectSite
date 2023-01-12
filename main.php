@@ -14,6 +14,7 @@
 
     <main class="main">
         <div class="about_me">
+            <?php include index.php?>
             <h1> <?php echo $p?> </h1>
             <div class="fullname">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg" alt="">
